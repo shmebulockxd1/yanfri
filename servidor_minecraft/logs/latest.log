@@ -1,274 +1,90 @@
-[14:12:58] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[14:12:58] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[14:12:58] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[14:12:59] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
-[14:12:59] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+[15:31:38] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[15:31:38] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[15:31:38] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:31:38] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[15:31:38] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
  - SkinsRestorer (15.4.4)
-[14:13:05] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:13:08] [ServerMain/INFO]: Loaded 1337 recipes
-[14:13:08] [ServerMain/INFO]: Loaded 1448 advancements
-[14:13:08] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[14:13:08] [Server thread/INFO]: Loading properties
-[14:13:08] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[14:13:09] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[14:13:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:13:09] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:13:10] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[14:13:10] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[14:13:11] [Server thread/INFO]: Default game type: SURVIVAL
-[14:13:11] [Server thread/INFO]: Generating keypair
-[14:13:11] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:13:11] [Server thread/INFO]: Using epoll channel type
-[14:13:11] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[14:13:11] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[14:13:11] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
-[14:13:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:13:11] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
-[14:13:12] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[14:13:12] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
-[14:13:13] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[14:13:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[14:13:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[14:13:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[14:13:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[14:13:13] [Server thread/INFO]: Preparing level "world"
-[14:13:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[14:13:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[14:13:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[14:13:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[14:13:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[14:13:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[14:13:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[14:13:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.4
-[14:13:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dc501c7
-[14:13:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[14:13:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[14:13:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[14:13:13] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[14:13:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:13:14] [Server thread/INFO]: Preparing spawn area: 0%
-[14:13:15] [Server thread/INFO]: Preparing spawn area: 2%
-[14:13:15] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[14:13:15] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 359.5ms
-[14:13:15] [Server thread/INFO]: Preparing spawn area: 2%
-[14:13:16] [Server thread/INFO]: Preparing spawn area: 18%
-[14:13:16] [Server thread/INFO]: Time elapsed: 1811 ms
-[14:13:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:13:16] [Server thread/INFO]: Preparing spawn area: 0%
-[14:13:16] [Server thread/INFO]: Time elapsed: 348 ms
-[14:13:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:13:16] [Server thread/INFO]: Preparing spawn area: 0%
-[14:13:16] [Server thread/INFO]: Time elapsed: 156 ms
-[14:13:16] [Server thread/INFO]: [spark] Starting background profiler...
-[14:13:17] [Server thread/INFO]: Done preparing level "world" (3.446s)
-[14:13:17] [Server thread/INFO]: Running delayed init tasks
-[14:13:17] [Server thread/INFO]: Done (20.071s)! For help, type "help"
-[14:22:52] [User Authenticator #0/INFO]: UUID of player Rcer_mc is 697956e9-2eb5-37d0-ab08-c40f51de3c18
-[14:22:55] [Server thread/INFO]: Rcer_mc joined the game
-[14:22:55] [Server thread/INFO]: Rcer_mc[/127.147.110.113:41491] logged in with entity id 23 at ([world]-4526.802415895963, 114.0, 1086.1354929274821)
-[14:23:56] [User Authenticator #1/INFO]: UUID of player geotrush is 583146d1-b2cf-3918-9ea5-b7f59e3efdcf
-[14:23:58] [Server thread/INFO]: geotrush joined the game
-[14:23:58] [Server thread/INFO]: geotrush[/127.243.211.55:40651] logged in with entity id 340 at ([world]-4525.096807793524, 122.0, 1113.7167025258775)
-[14:24:27] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> holaaa mi amorcito
-[14:24:39] [Async Chat Thread - #0/INFO]: [Not Secure] <Rcer_mc> buenas
-[14:24:49] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> a mimir p
-[14:24:56] [Async Chat Thread - #0/INFO]: [Not Secure] <Rcer_mc> cual sera nuestra casa momentanea pero p
-[14:25:29] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> hagamos nuestra casa donde dijiste tu o
-[14:25:56] [Async Chat Thread - #0/INFO]: [Not Secure] <Rcer_mc> pero donde es eso p
-[14:26:01] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> XDDDDDDDDDD
-[14:26:07] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> ya estamos lejos creo
-[14:27:04] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> supongo q sera por ahi XDDD
-[14:27:32] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> aaa sisi p
-[14:27:40] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> donde tu dijiste esta del otro lado del bioma de los cerezos p
-[14:27:51] [Async Chat Thread - #0/INFO]: [Not Secure] <Rcer_mc> aa sisi
-[14:27:57] [Async Chat Thread - #0/INFO]: [Not Secure] <Rcer_mc> la jungla por aya creo
-[14:28:14] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> vamos o q p
-[14:28:34] [Async Chat Thread - #0/INFO]: [Not Secure] <Rcer_mc> pero no tenemos materiales p
-[14:28:44] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> ay q llevarnos madera p
-[14:28:54] [Async Chat Thread - #0/INFO]: [Not Secure] <Rcer_mc> de abedul p
-[14:29:00] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> yaya
-[14:30:27] [Async Chat Thread - #2/INFO]: [Not Secure] <Rcer_mc> ando con lag potente o
-[14:30:34] [Async Chat Thread - #2/INFO]: [Not Secure] <geotrush> noooo
-[14:30:38] [Async Chat Thread - #2/INFO]: [Not Secure] <geotrush> pipipi
-[14:32:03] [Async Chat Thread - #4/INFO]: [Not Secure] <geotrush> un numero desconocido llama a mi celular creo o XDDDDD
-[14:32:16] [Async Chat Thread - #4/INFO]: [Not Secure] <Rcer_mc> XDDDDD cuidado o
-[14:32:18] [Server thread/INFO]: Rcer_mc lost connection: Disconnected
-[14:32:18] [Server thread/INFO]: Rcer_mc left the game
-[14:32:28] [User Authenticator #2/INFO]: UUID of player Rcer_mc is 697956e9-2eb5-37d0-ab08-c40f51de3c18
-[14:32:31] [Server thread/INFO]: Rcer_mc joined the game
-[14:32:31] [Server thread/INFO]: Rcer_mc[/127.147.110.113:34661] logged in with entity id 1504 at ([world]-4501.403487480136, 120.0, 1262.303686323449)
-[14:33:06] [Async Chat Thread - #4/INFO]: [Not Secure] <Rcer_mc> reinicio la pc p XDD ni escribir puedo
-[14:33:16] [Async Chat Thread - #4/INFO]: [Not Secure] <geotrush> yaya niñita XDDDDDD
-[14:33:19] [Server thread/INFO]: Rcer_mc lost connection: Disconnected
-[14:33:19] [Server thread/INFO]: Rcer_mc left the game
-[14:51:41] [Server thread/INFO]: geotrush has made the advancement [Best Friends Forever]
-[14:57:19] [User Authenticator #3/INFO]: UUID of player Rcer_mc is 697956e9-2eb5-37d0-ab08-c40f51de3c18
-[14:57:21] [Server thread/INFO]: Rcer_mc joined the game
-[14:57:21] [Server thread/INFO]: Rcer_mc[/127.147.110.113:34631] logged in with entity id 5030 at ([world]-4498.644861977883, 120.0, 1268.7033582616084)
-[14:57:28] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> volviiii
-[14:57:30] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> mi reina
-[14:57:32] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> volvisteee
-[14:57:36] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> XDDDD
-[14:57:45] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> ya esta mejor XDD
-[14:57:51] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> q proooo
-[14:57:59] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> ya volvio tu reina p
-[14:58:12] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> mi reina hermosa ya volvio p
-[14:58:39] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> a mimir p
-[14:58:48] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> ya p
-[14:58:59] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> pero no estas p pipipi
-[14:59:17] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> para la siguiente noche p
-[14:59:19] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> dormimos juntos
-[14:59:33] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> y mañana duermes en mis brazos dea
-[14:59:55] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> hey hey por aqui no tantas cosas chargers p
-[15:00:08] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> aaayaya perdon es inevitable p
-[15:00:09] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> XDDD
-[15:00:10] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> donde estas p
-[15:00:18] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> en la aldea niñita
-[15:00:38] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> tp p
-[15:01:01] [Server thread/INFO]: geotrush issued server command: /tp Rcer_mc geotrush
-[15:01:01] [Server thread/INFO]: [geotrush: Teleported Rcer_mc to geotrush]
-[15:01:16] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> q prooo XDDDDD
-[15:01:30] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> me entro lag de la nada p
-[15:01:36] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> XDDD sisi ya veo o
-[15:01:49] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> pero ya esta p
-[15:02:00] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> q pro mi niñita
-[15:02:02] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> a verdad
-[15:02:06] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> ando encerrando a los aldeanos XDDD
-[15:02:20] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> pq p
-[15:02:26] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> para tradear p
-[15:05:32] [Async Chat Thread - #8/INFO]: [Not Secure] <geotrush> yo ya tengo madera de abedul ve consiguiendo tu tambien p
-[15:05:33] [Async Chat Thread - #8/INFO]: [Not Secure] <geotrush> para la casita
-[15:05:40] [Async Chat Thread - #8/INFO]: [Not Secure] <Rcer_mc> yaya
-[15:10:21] [Async Chat Thread - #10/INFO]: [Not Secure] <geotrush> a mimir juntos esta vez p
-[15:10:37] [Async Chat Thread - #10/INFO]: [Not Secure] <Rcer_mc> sisi pero quiero hilo XD
-[15:12:26] [Async Chat Thread - #12/INFO]: [Not Secure] <geotrush> cuanto quieres p
-[15:12:36] [Async Chat Thread - #12/INFO]: [Not Secure] <Rcer_mc> como para una caña p
-[15:12:49] [Async Chat Thread - #12/INFO]: [Not Secure] <geotrush> eran 2 creo
-[15:13:06] [Async Chat Thread - #12/INFO]: [Not Secure] <Rcer_mc> gracias mi amor
-[15:13:08] [Async Chat Thread - #12/INFO]: [Not Secure] <geotrush> te robo tu cacma XDDD
-[15:13:12] [Async Chat Thread - #12/INFO]: [Not Secure] <geotrush> cama*
-[15:13:17] [Async Chat Thread - #12/INFO]: [Not Secure] <geotrush> aaaa q linda eres niñita
-[15:13:18] [Async Chat Thread - #12/INFO]: [Not Secure] <Rcer_mc> yo me robo la suya p
-[15:13:22] [Async Chat Thread - #12/INFO]: [Not Secure] <geotrush> JAJJAJAJA
-[15:13:31] [Async Chat Thread - #12/INFO]: [Not Secure] <Rcer_mc> ven p
-[15:13:44] [Async Chat Thread - #12/INFO]: [Not Secure] <geotrush> perdon p
-[15:14:04] [Async Chat Thread - #12/INFO]: [Not Secure] <geotrush> XDDDDD
-[15:14:09] [Async Chat Thread - #12/INFO]: [Not Secure] <geotrush> yaya perdo np
-[15:14:12] [Async Chat Thread - #12/INFO]: [Not Secure] <Rcer_mc> espera hasta mñn p
-[15:14:13] [Async Chat Thread - #12/INFO]: [Not Secure] <geotrush> perdon p
-[15:17:45] [Server thread/INFO]: Rcer_mc has made the advancement [Fishy Business]
-[15:17:50] [Async Chat Thread - #14/INFO]: [Not Secure] <Rcer_mc> xde
-[15:17:51] [Async Chat Thread - #14/INFO]: [Not Secure] <geotrush> XDDDD
-[15:18:08] [Async Chat Thread - #14/INFO]: [Not Secure] <geotrush> q prooo
-[15:23:41] [Async Chat Thread - #16/INFO]: [Not Secure] <geotrush> vamos a hacer la casita p
-[15:23:46] [Async Chat Thread - #16/INFO]: [Not Secure] <geotrush> tengo q guardar cosas XDDD
-[15:23:48] [Async Chat Thread - #16/INFO]: [Not Secure] <Rcer_mc> peras
-[15:24:12] [Async Chat Thread - #16/INFO]: [Not Secure] <Rcer_mc> yo ya lo guarde en un cofre p
-[15:24:41] [Async Chat Thread - #16/INFO]: [Not Secure] <geotrush> aaaa q proo XDD
-[15:25:06] [Server thread/INFO]: Rcer_mc has made the advancement [Not Today, Thank You]
-[15:25:13] [Async Chat Thread - #16/INFO]: [Not Secure] <geotrush> es q a mi me va a dar flojera llevar todo XDDDD
-[15:25:16] [Async Chat Thread - #16/INFO]: [Not Secure] <geotrush> aaa q proo XDDD
-[15:25:37] [Async Chat Thread - #16/INFO]: [Not Secure] <Rcer_mc> dormir p
-[15:25:42] [Async Chat Thread - #16/INFO]: [Not Secure] <Rcer_mc> esq justo encontre dos gatos
-[15:25:54] [Async Chat Thread - #16/INFO]: [Not Secure] <Rcer_mc> uno negro y otro blancooo
-[15:25:59] [Async Chat Thread - #16/INFO]: [Not Secure] <geotrush> ay q adoptarlos p
-[15:26:00] [Async Chat Thread - #16/INFO]: [Not Secure] <Rcer_mc> coincidencia no creo o
-[15:26:16] [Async Chat Thread - #16/INFO]: [Not Secure] <Rcer_mc> apuraaa
-[15:26:27] [Async Chat Thread - #16/INFO]: [Not Secure] <geotrush> yaa p
-[15:28:50] [Async Chat Thread - #18/INFO]: [Not Secure] <Rcer_mc> se han metido en la cueva o
-[15:29:07] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> mejor p mas facil XDDDD
-[15:29:21] [Server thread/INFO]: geotrush issued server command: /tp Rcer_mc
-[15:29:21] [Server thread/INFO]: [geotrush: Teleported geotrush to Rcer_mc]
-[15:30:05] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> no veo gatos o
-[15:30:14] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> aaa
-[15:30:15] [Async Chat Thread - #18/INFO]: [Not Secure] <Rcer_mc> ya tengo al blaanco nomasss
-[15:30:22] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> el negro se camufla p
-[15:30:25] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> imposible XDDDDDDD
-[15:31:01] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> no hay pipipi
-[15:31:34] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> aaa este es mi caballo XDDD
-[15:31:36] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> como se escapo o
-[15:31:42] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> si lo deje en un hueco XDDDDD
-[15:32:12] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> una niñita lo salvo de seguro p
-[15:32:14] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> XDDDDDD
-[15:33:18] [Async Chat Thread - #20/INFO]: [Not Secure] <geotrush> pipipi habia dejado 2 hornos con hierro
-[15:33:23] [Async Chat Thread - #20/INFO]: [Not Secure] <geotrush> nose donde estan o
-[15:33:32] [Async Chat Thread - #20/INFO]: [Not Secure] <Rcer_mc> lo guarde en el cofre de la aldea XDD
-[15:33:47] [Async Chat Thread - #20/INFO]: [Not Secure] <geotrush> XDDDDD mira p esta ratera
-[15:33:52] [Async Chat Thread - #20/INFO]: [Not Secure] <geotrush> pero gracias p XDDD
-[15:35:00] [Async Chat Thread - #22/INFO]: [Not Secure] <geotrush> a verdad hoy hay clases no? XDDDDD
-[15:35:06] [Async Chat Thread - #23/INFO]: [Not Secure] <Rcer_mc> si p XDDD
-[15:35:26] [Async Chat Thread - #23/INFO]: [Not Secure] <geotrush> aaaya XDDD
-[15:35:40] [Async Chat Thread - #23/INFO]: [Not Secure] <geotrush> es mi mamá pensaba q no habia clases nose porque XDDD
-[15:36:51] [Async Chat Thread - #24/INFO]: [Not Secure] <geotrush> siento q voy a pasar la mayoria de tiempo en la aldea XDDDDDD
-[15:36:57] [Async Chat Thread - #24/INFO]: [Not Secure] <geotrush> no quieres hacer la casa aca? XDDDDDD
-[15:37:17] [Async Chat Thread - #24/INFO]: [Not Secure] <Rcer_mc> supongo q ya p
-[15:38:31] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> aaa nono mejor hagamos la casa haya XDDDD
-[15:38:37] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> ya lo pense mejor XDDDDD
-[15:38:45] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> seguro?
-[15:38:49] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> sisi XDDDDD
-[15:39:21] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> a mimir p
-[15:40:17] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> ahora si craftiemos un hijo dea
-[15:40:33] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> esq estan mis mascotas p XDDD
-[15:40:33] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> XD
-[15:40:35] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> XDDDDDDD
-[15:40:41] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> mucho ruido se trauman
-[15:40:44] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> JAJAJAJJJAJ
-[15:40:54] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> cierto cierto
-[15:41:12] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> no me di cuenta del perro XDDDD
-[15:41:26] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> se camufla p
-[15:41:48] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> q paso XDDDD
-[15:42:06] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> aca p
-[15:42:46] [Async Chat Thread - #27/INFO]: [Not Secure] <Rcer_mc> ta muy chiquito p
-[15:42:55] [Async Chat Thread - #27/INFO]: [Not Secure] <Rcer_mc> el espacio
-[15:43:02] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> si p pipipi XDDD
-[15:43:34] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> XDDD
-[15:43:36] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> XDDDDD
-[15:43:39] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> tengo 3 camas nose porque
-[15:43:40] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> XDDDDDDD
-[15:43:44] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> por esoo
-[15:44:07] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> vamos a la casa de haya p
-[15:44:40] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> no p
-[15:44:42] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> XDDDDD
-[15:44:45] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> ahi esta mi loro XD
-[15:44:53] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> JAJAJAAJ
-[15:45:02] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> va estar de chismoso
-[15:45:11] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> en una cueva nomas o no hay de otra
-[15:45:12] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> dea
-[15:45:13] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> XDDDDDDDDDDDD
-[15:45:43] [Async Chat Thread - #28/INFO]: [Not Secure] <Rcer_mc> ya es dia o
-[15:45:47] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> si o XDDDDD
-[15:45:50] [Async Chat Thread - #28/INFO]: [Not Secure] <Rcer_mc> ya no XDD
-[15:45:54] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> XDDDDDD
-[15:46:15] [Async Chat Thread - #28/INFO]: [Not Secure] <Rcer_mc> XDDDDDD
-[15:46:36] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> ahora p
-[15:46:48] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> XDDDD
-[15:46:53] [Async Chat Thread - #28/INFO]: [Not Secure] <Rcer_mc> peraa
-[15:46:59] [Async Chat Thread - #28/INFO]: [Not Secure] <Rcer_mc> los llevo lejos p
-[15:47:05] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> aayaya XDDD
-[15:47:19] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> XDDDDD
-[15:47:23] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> ya es de dia creo
-[15:47:39] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> XDD
-[15:47:47] [Async Chat Thread - #28/INFO]: [Not Secure] <Rcer_mc> mas te vale no matarlo
-[15:47:52] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> XDDDDDD
-[15:47:54] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> calmalo p
-[15:48:26] [Async Chat Thread - #28/INFO]: [Not Secure] <Rcer_mc> ya o
-[15:50:10] [Async Chat Thread - #29/INFO]: [Not Secure] <geotrush> ya se va a hacer de dia
-[15:50:26] [Async Chat Thread - #29/INFO]: [Not Secure] <Rcer_mc> no se puede XD
-[15:50:32] [Async Chat Thread - #29/INFO]: [Not Secure] <Rcer_mc> ya es de dia dice
-[15:50:42] [Async Chat Thread - #29/INFO]: [Not Secure] <geotrush> nooooooooooooooooo
-[15:50:58] [Async Chat Thread - #29/INFO]: [Not Secure] <geotrush> XDDDDD
-[15:51:07] [Async Chat Thread - #29/INFO]: [Not Secure] <geotrush> igual p
-[15:51:10] [Async Chat Thread - #29/INFO]: [Not Secure] <geotrush> no nos detuvo
-[15:51:25] [Async Chat Thread - #29/INFO]: [Not Secure] <geotrush> ya valio o XDDDD
-[15:51:30] [Async Chat Thread - #29/INFO]: [Not Secure] <geotrush> mucho demoraste p
-[15:51:39] [Async Chat Thread - #29/INFO]: [Not Secure] <geotrush> o pero esta viendo por la ventana XDDDDDDD
-[15:51:42] [Async Chat Thread - #29/INFO]: [Not Secure] <Rcer_mc> domo se hace eso en minecraft o
-[15:52:32] [Async Chat Thread - #29/INFO]: [Not Secure] <geotrush> XDDDDD son con mods de seguro p dea
-[15:52:49] [Async Chat Thread - #29/INFO]: [Not Secure] <Rcer_mc> XDDDD no p pq si ya se podra mñn de verdad
-[15:52:57] [Async Chat Thread - #29/INFO]: [Not Secure] <geotrush> cierto cierto
-[15:53:10] [Async Chat Thread - #29/INFO]: [Not Secure] <geotrush> te quiero decir un monton de cosas pero estamos en minecraft p XDDDDD
-[15:53:40] [Async Chat Thread - #29/INFO]: [Not Secure] <Rcer_mc> voy a wasa p ya van a ser las 11 XDD
-[15:53:49] [Async Chat Thread - #29/INFO]: [Not Secure] <geotrush> sisi XDDDD
-[15:54:02] [Async Chat Thread - #29/INFO]: [Not Secure] <geotrush> te amo mi niñita
-[15:54:03] [Async Chat Thread - #29/INFO]: [Not Secure] <Rcer_mc> yo a esa hora me comienzo a alistar p
-[15:54:16] [Async Chat Thread - #29/INFO]: [Not Secure] <geotrush> estoy muy lag ahora XDD
+[15:31:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:31:45] [ServerMain/INFO]: Loaded 1337 recipes
+[15:31:45] [ServerMain/INFO]: Loaded 1448 advancements
+[15:31:46] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[15:31:46] [Server thread/INFO]: Loading properties
+[15:31:46] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[15:31:47] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:31:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:31:47] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:31:48] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[15:31:48] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:31:48] [Server thread/INFO]: Default game type: SURVIVAL
+[15:31:48] [Server thread/INFO]: Generating keypair
+[15:31:48] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:31:48] [Server thread/INFO]: Using epoll channel type
+[15:31:48] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[15:31:48] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[15:31:49] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
+[15:31:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:31:49] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
+[15:31:51] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[15:31:51] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
+[15:31:52] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[15:31:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:31:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:31:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:31:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:31:52] [Server thread/INFO]: Preparing level "world"
+[15:31:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:31:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[15:31:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[15:31:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[15:31:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[15:31:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[15:31:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:31:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.4
+[15:31:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dc501c7
+[15:31:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[15:31:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[15:31:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[15:31:52] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[15:31:53] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:31:55] [Server thread/INFO]: Preparing spawn area: 0%
+[15:31:55] [Server thread/INFO]: Preparing spawn area: 0%
+[15:31:55] [Server thread/INFO]: Preparing spawn area: 0%
+[15:31:55] [Server thread/INFO]: Preparing spawn area: 2%
+[15:31:55] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[15:31:55] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 436.2ms
+[15:31:55] [Server thread/INFO]: Preparing spawn area: 2%
+[15:31:56] [Server thread/INFO]: Preparing spawn area: 18%
+[15:31:56] [Server thread/INFO]: Time elapsed: 2774 ms
+[15:31:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:31:56] [Server thread/INFO]: Preparing spawn area: 0%
+[15:31:56] [Server thread/INFO]: Time elapsed: 299 ms
+[15:31:56] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:31:56] [Server thread/INFO]: Preparing spawn area: 0%
+[15:31:57] [Server thread/INFO]: Time elapsed: 199 ms
+[15:31:57] [Server thread/INFO]: [spark] Starting background profiler...
+[15:31:57] [Server thread/INFO]: Done preparing level "world" (5.210s)
+[15:31:57] [Server thread/INFO]: Running delayed init tasks
+[15:31:57] [Server thread/INFO]: Done (20.711s)! For help, type "help"
+[15:33:16] [User Authenticator #0/INFO]: UUID of player Rcer_mc is 697956e9-2eb5-37d0-ab08-c40f51de3c18
+[15:33:19] [Server thread/INFO]: Rcer_mc joined the game
+[15:33:19] [Server thread/INFO]: Rcer_mc[/127.9.77.92:39443] logged in with entity id 24 at ([world]-4494.699999988079, 129.5625, 1103.699999988079)
+[15:35:35] [User Authenticator #1/INFO]: UUID of player geotrush is 583146d1-b2cf-3918-9ea5-b7f59e3efdcf
+[15:35:37] [Server thread/INFO]: geotrush joined the game
+[15:35:37] [Server thread/INFO]: geotrush[/127.243.211.55:51909] logged in with entity id 469 at ([world]-4495.543489091455, 128.0, 1108.699999988079)
+[15:35:41] [Async Chat Thread - #0/INFO]: [Not Secure] <Rcer_mc> hi
+[15:35:44] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> holaaa
+[15:36:32] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> a mimir p
+[15:36:47] [Async Chat Thread - #0/INFO]: [Not Secure] <Rcer_mc> quiero hilo p
+[15:37:18] [Server thread/INFO]: Rcer_mc has made the advancement [Monster Hunter]
+[15:37:27] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> q proo XDDDD
+[15:37:34] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> EL GATO NEGRO XDDDD
+[15:38:04] [Async Chat Thread - #0/INFO]: [Not Secure] <Rcer_mc> donde esta el gaato p
+[15:38:15] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> ACA
+[15:40:18] [Async Chat Thread - #3/INFO]: [Not Secure] <geotrush> a mimir p
+[15:40:42] [Async Chat Thread - #3/INFO]: [Not Secure] <Rcer_mc> quiero mi gato p
+[15:40:48] [Async Chat Thread - #3/INFO]: [Not Secure] <geotrush> ya lo adoptaste? XDDDD
+[15:41:08] [Async Chat Thread - #3/INFO]: [Not Secure] <Rcer_mc> al parecer quiero pescado crudo
+[15:41:16] [Async Chat Thread - #3/INFO]: [Not Secure] <Rcer_mc> quiere
+[15:41:17] [Async Chat Thread - #3/INFO]: [Not Secure] <geotrush> JAAJJAJ
+[15:41:20] [Async Chat Thread - #4/INFO]: [Not Secure] <geotrush> pues si p XDDD
+[15:41:28] [Async Chat Thread - #4/INFO]: [Not Secure] <Rcer_mc> esq ya lo habia comidoo
