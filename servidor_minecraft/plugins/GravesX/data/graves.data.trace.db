@@ -1,0 +1,27 @@
+2024-12-09 19:59:39.846714Z jdbc[4]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S02 not found); SQL statement:
+ALTER TABLE block ADD COLUMN IF NOT EXISTS replace_material VARCHAR(255) [42102-232]
+2024-12-09 19:59:39.847621Z jdbc[5]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S02 not found); SQL statement:
+ALTER TABLE block ADD COLUMN IF NOT EXISTS location VARCHAR(255) [42102-232]
+2024-12-09 19:59:39.846949Z jdbc[3]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S02 not found); SQL statement:
+ALTER TABLE block ADD COLUMN IF NOT EXISTS uuid_grave VARCHAR(255) [42102-232]
+2024-12-09 19:59:39.847980Z jdbc[4]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S02 not found); SQL statement:
+ALTER TABLE block ADD COLUMN IF NOT EXISTS replace_data TEXT [42102-232]
+2024-12-09 19:59:39.849558Z jdbc[3]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S02 not found); SQL statement:
+ALTER TABLE armorstand ADD COLUMN IF NOT EXISTS uuid_entity VARCHAR(255) [42102-232]
+2024-12-09 19:59:39.849598Z jdbc[4]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S02 not found); SQL statement:
+ALTER TABLE itemframe ADD COLUMN IF NOT EXISTS uuid_entity VARCHAR(255) [42102-232]
+2024-12-09 19:59:39.849688Z jdbc[5]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S02 not found); SQL statement:
+ALTER TABLE armorstand ADD COLUMN IF NOT EXISTS uuid_grave VARCHAR(255) [42102-232]
+2024-12-09 19:59:39.850002Z jdbc[4]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S02 not found); SQL statement:
+ALTER TABLE itemframe ADD COLUMN IF NOT EXISTS location VARCHAR(255) [42102-232]
+2024-12-09 19:59:39.850053Z jdbc[5]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S02 not found); SQL statement:
+ALTER TABLE armorstand ADD COLUMN IF NOT EXISTS location VARCHAR(255) [42102-232]
