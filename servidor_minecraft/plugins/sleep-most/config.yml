@@ -17,7 +17,7 @@ nightcycle-animation-speed: 85
 sleep:
   # for each world, you can create different configurations
   world:
-    enabled: true
+    enabled: false
     calculation-method: percentage
     percentage-required: 0.5
     players-required: 5
