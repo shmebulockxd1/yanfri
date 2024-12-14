@@ -25,3 +25,9 @@ ALTER TABLE itemframe ADD COLUMN IF NOT EXISTS location VARCHAR(255) [42102-232]
 2024-12-09 19:59:39.850053Z jdbc[5]: exception
 com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S02 not found); SQL statement:
 ALTER TABLE armorstand ADD COLUMN IF NOT EXISTS location VARCHAR(255) [42102-232]
+2024-12-14 15:13:47.715948Z jdbc[3]: exception
+com.ranull.graves.libraries.h2.jdbc.JdbcSQLSyntaxErrorException: (Message 42S01 not found); SQL statement:
+CREATE TABLE block (location VARCHAR(255),
+uuid_grave VARCHAR(255),
+replace_material VARCHAR(255),
+replace_data TEXT) [42101-232]
