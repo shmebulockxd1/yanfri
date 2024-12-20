@@ -1,441 +1,209 @@
-[15:13:24] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[15:13:24] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
-[15:13:24] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[15:13:26] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[15:13:26] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+[22:03:30] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[22:03:30] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[22:03:30] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[22:03:30] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[22:03:30] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
  - GravesX (4.9.6.4), SkinsRestorer (15.5.0), sleep-most (5.5.1)
-[15:13:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:13:33] [ServerMain/INFO]: Loaded 1337 recipes
-[15:13:33] [ServerMain/INFO]: Loaded 1448 advancements
-[15:13:33] [Server thread/INFO]: Starting minecraft server version 1.21.3
-[15:13:33] [Server thread/INFO]: Loading properties
-[15:13:33] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
-[15:13:34] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[15:13:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:13:34] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:13:35] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
-[15:13:35] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[15:13:35] [Server thread/INFO]: Default game type: SURVIVAL
-[15:13:35] [Server thread/INFO]: Generating keypair
-[15:13:35] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:13:35] [Server thread/INFO]: Using epoll channel type
-[15:13:35] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[15:13:35] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[15:13:36] [Server thread/INFO]: [sleep-most] Loading server plugin sleep-most v5.5.1
-[15:13:36] [Server thread/INFO]: [GravesX] Loading server plugin GravesX v4.9.6.4
-[15:13:36] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
-[15:13:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:13:36] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
-[15:13:38] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[15:13:38] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
-[15:13:39] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[15:13:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:13:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:13:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:13:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:13:39] [Server thread/INFO]: Preparing level "world"
-[15:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[15:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[15:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[15:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[15:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[15:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.0
-[15:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ad418e4
-[15:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[15:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[15:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[15:13:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[15:13:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:13:40] [Server thread/INFO]: Preparing spawn area: 0%
-[15:13:40] [Server thread/INFO]: Preparing spawn area: 2%
-[15:13:40] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
-[15:13:41] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 352.5ms
-[15:13:41] [Server thread/INFO]: Preparing spawn area: 2%
-[15:13:41] [Server thread/INFO]: Preparing spawn area: 20%
-[15:13:41] [Server thread/INFO]: Time elapsed: 1664 ms
-[15:13:41] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[15:13:41] [Server thread/INFO]: Preparing spawn area: 0%
-[15:13:42] [Server thread/INFO]: Time elapsed: 349 ms
-[15:13:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[15:13:42] [Server thread/INFO]: Preparing spawn area: 0%
-[15:13:42] [Server thread/INFO]: Time elapsed: 307 ms
-[15:13:42] [Server thread/INFO]: [sleep-most] Enabling sleep-most v5.5.1
-[15:13:42] [Server thread/INFO]: [GravesX] Enabling GravesX v4.9.6.4
-[15:13:42] [Server thread/INFO]: [GravesX] Loading Libraries for GravesX
-[15:13:42] [Server thread/INFO]: [GravesX] Loading library com.zaxxer.HikariCP version 6.0.0.
-[15:13:42] [Server thread/INFO]: [GravesX] Loading library com.zaxxer:HikariCP:6.0.0
-[15:13:43] [Server thread/INFO]: [GravesX] Loading library org.slf4j:slf4j-api:1.7.36
-[15:13:43] [Server thread/INFO]: [GravesX] Loading library org.javassist:javassist:3.29.2-GA
-[15:13:43] [Server thread/INFO]: [GravesX] Loading library io.micrometer:micrometer-core:1.5.10
-[15:13:43] [Server thread/INFO]: [GravesX] Loading library org.hdrhistogram:HdrHistogram:2.1.12
-[15:13:43] [Server thread/INFO]: [GravesX] Loading library org.latencyutils:LatencyUtils:2.0.3
-[15:13:43] [Server thread/INFO]: [GravesX] Loaded library com.zaxxer.HikariCP version 6.0.0 and shaded successfully.
-[15:13:43] [Server thread/INFO]: [GravesX] Loading library org.xerial.sqlite-jdbc version 3.47.0.0.
-[15:13:43] [Server thread/INFO]: [GravesX] Loading library org.xerial:sqlite-jdbc:3.47.0.0
-[15:13:43] [Server thread/INFO]: [GravesX] Loading library org.slf4j:slf4j-api:1.7.36
-[15:13:43] [Server thread/INFO]: [GravesX] Loaded library org.xerial.sqlite-jdbc version 3.47.0.0 successfully.
-[15:13:43] [Server thread/INFO]: [GravesX] Loading library org.json.json version 20240303.
-[15:13:43] [Server thread/INFO]: [GravesX] Loading library org.json:json:20240303
-[15:13:43] [Server thread/INFO]: [GravesX] Loaded library org.json.json version 20240303 successfully.
-[15:13:43] [Server thread/INFO]: [GravesX] Loading library com.h2database.h2 version 2.3.232.
-[15:13:43] [Server thread/INFO]: [GravesX] Loading library com.h2database:h2:2.3.232
-[15:13:44] [Server thread/INFO]: [GravesX] Loaded library com.h2database.h2 version 2.3.232 and shaded successfully.
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori.adventure-api version 4.17.0.
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-api:4.17.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-key:4.17.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-api:1.3.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-string:1.3.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library org.jetbrains:annotations:24.1.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loaded library net.kyori.adventure-api version 4.17.0 and shaded successfully.
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori.adventure-text-minimessage version 4.17.0.
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-minimessage:4.17.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-api:4.17.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-key:4.17.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-api:1.3.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-string:1.3.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library org.jetbrains:annotations:24.1.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loaded library net.kyori.adventure-text-minimessage version 4.17.0 and shaded successfully.
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori.adventure-text-serializer-gson version 4.17.0.
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-serializer-gson:4.17.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-serializer-json:4.17.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-api:4.17.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-key:4.17.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-api:1.3.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-string:1.3.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library org.jetbrains:annotations:24.1.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:option:1.0.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library com.google.code.gson:gson:2.8.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library com.google.auto.service:auto-service-annotations:1.1.1
-[15:13:44] [Server thread/INFO]: [GravesX] Loaded library net.kyori.adventure-text-serializer-gson version 4.17.0 and shaded successfully.
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori.adventure-platform-bukkit version 4.3.3.
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-platform-bukkit:4.3.3
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-platform-api:4.3.3
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-api:4.13.1
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-key:4.13.1
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-serializer-bungeecord:4.3.3
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-serializer-legacy:4.13.1
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-nbt:4.13.1
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-api:1.3.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-string:1.3.0
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library org.jetbrains:annotations:24.0.1
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-serializer-gson:4.13.1
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-serializer-gson-legacy-impl:4.13.1
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-platform-facet:4.3.3
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-platform-viaversion:4.3.3
-[15:13:44] [Server thread/INFO]: [GravesX] Loaded library net.kyori.adventure-platform-bukkit version 4.3.3 and shaded successfully.
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library de.themoep.minedown-adventure version 1.7.3-graves.
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library de.themoep:minedown-adventure:1.7.3-graves
-[15:13:44] [Server thread/INFO]: [GravesX] Loaded library de.themoep.minedown-adventure version 1.7.3-graves and shaded successfully.
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library me.imdanix.MiniTranslator version 2.1-graves.
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library me.imdanix:MiniTranslator:2.1-graves
-[15:13:44] [Server thread/INFO]: [GravesX] Loaded library me.imdanix.MiniTranslator version 2.1-graves and shaded successfully.
-[15:13:44] [Server thread/INFO]: [GravesX] Loading library com.github.puregero.multilib version 1.2.4.
-[15:13:45] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:multilib:1.2.4
-[15:13:45] [Server thread/INFO]: [GravesX] Loading library org.jetbrains:annotations:22.0.0
-[15:13:45] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:multilib-common:1.2.4
-[15:13:45] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:multilib-bukkit:1.2.4
-[15:13:45] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:multilib-multipaper:1.2.4
-[15:13:45] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:regionized-common:1.2.4
-[15:13:45] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:regionized-bukkit:1.2.4
-[15:13:45] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:regionized-paper:1.2.4
-[15:13:45] [Server thread/INFO]: [GravesX] Loaded library com.github.puregero.multilib version 1.2.4 and shaded successfully.
-[15:13:45] [Server thread/INFO]: [GravesX] Loading library org.apache.commons.commons-text version 1.12.0.
-[15:13:45] [Server thread/INFO]: [GravesX] Loading library org.apache.commons:commons-text:1.12.0
-[15:13:45] [Server thread/INFO]: [GravesX] Loading library org.apache.commons:commons-lang3:3.14.0
-[15:13:45] [Server thread/INFO]: [GravesX] Loaded library org.apache.commons.commons-text version 1.12.0 and shaded successfully.
-[15:13:45] [Server thread/INFO]: [GravesX] Finished Loading Libraries for GravesX.
-[15:13:45] [Server thread/INFO]: [GravesX] Integration: Hooked into MiniMessage.
-[15:13:45] [Server thread/INFO]: [GravesX] Integration: Hooked into Minedown Adventure.
-[15:13:45] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.HikariDataSource] Graves H2 - Starting...
-[15:13:46] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.pool.HikariPool] Graves H2 - Added connection conn1: url=jdbc:h2:file:./plugins/GravesX/data/graves.data user=SA
-[15:13:46] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.HikariDataSource] Graves H2 - Start completed.
-[15:13:46] [Server thread/WARN]: [GravesX] SQLite database file or folder does not exist in "plugins/GravesX/data". Skipping database migration.
-[15:13:47] [Server thread/INFO]: [GravesX] Metrics has been enabled. All metrics will be sent to https://bstats.org/plugin/bukkit/Graves/12849 and https://bstats.org/plugin/bukkit/GravesX/23069.
-[15:13:47] [Server thread/INFO]: [spark] Starting background profiler...
-[15:13:47] [Server thread/INFO]: Done preparing level "world" (8.251s)
-[15:13:47] [Server thread/INFO]: Running delayed init tasks
-[15:13:47] [Server thread/INFO]: [GravesX] Registering Crash Handler...
-[15:13:47] [Server thread/INFO]: [GravesX] Registered Crash Handler. Server will handle crashes in a separate thread.
-[15:13:47] [Server thread/INFO]: Done (27.971s)! For help, type "help"
-[15:13:47] [Craft Scheduler Thread - 2 - GravesX/INFO]: [GravesX] Loading grave maps...
-[15:13:47] [Craft Scheduler Thread - 2 - GravesX/INFO]: [GravesX] Found 0 grave maps to load into cache.
-[15:13:47] [Craft Scheduler Thread - 2 - GravesX/INFO]: [GravesX] Loading Block Map cache...
-[15:13:47] [Craft Scheduler Thread - 2 - GravesX/INFO]: [GravesX] Loaded 0 Blocks into Block Map Cache.
-[15:13:47] [Craft Scheduler Thread - 9 - GravesX/INFO]: [GravesX] Loading Holograms into Hologram Map Cache...
-[15:13:47] [Craft Scheduler Thread - 10 - GravesX/INFO]: [GravesX] Loading Entity Map Cache for itemframe...
-[15:13:47] [Craft Scheduler Thread - 9 - GravesX/INFO]: [GravesX] Loaded 0 Holograms into Hologram Map Cache.
-[15:13:47] [Craft Scheduler Thread - 10 - GravesX/INFO]: [GravesX] Loaded 0 entities into Entity Map Cache for itemframe.
-[15:13:47] [Craft Scheduler Thread - 11 - GravesX/INFO]: [GravesX] Loading Entity Map Cache for armorstand...
-[15:13:47] [Craft Scheduler Thread - 11 - GravesX/INFO]: [GravesX] Loaded 0 entities into Entity Map Cache for armorstand.
-[15:23:24] [User Authenticator #0/INFO]: UUID of player Rcer_mc is 697956e9-2eb5-37d0-ab08-c40f51de3c18
-[15:23:25] [User Authenticator #0/INFO]: UUID of player geotrush is 583146d1-b2cf-3918-9ea5-b7f59e3efdcf
-[15:23:26] [Server thread/INFO]: geotrush joined the game
-[15:23:26] [Server thread/INFO]: geotrush[/127.243.211.55:55085] logged in with entity id 22 at ([world]-4517.778874328607, 123.0, 1103.8992382839676)
-[15:23:29] [Server thread/INFO]: Rcer_mc joined the game
-[15:23:29] [Server thread/INFO]: Rcer_mc[/127.9.77.92:46719] logged in with entity id 21 at ([world]-4529.794505474164, 123.0, 1110.7298504610842)
-[15:23:44] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> buenoos dias mi linda ruth
-[15:23:47] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> dea
-[15:23:51] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> XDDDDD
-[15:23:59] [Server thread/INFO]: Rcer_mc lost connection: Timed out
-[15:23:59] [Server thread/INFO]: Rcer_mc left the game
-[15:24:06] [User Authenticator #0/INFO]: UUID of player Rcer_mc is 697956e9-2eb5-37d0-ab08-c40f51de3c18
-[15:24:07] [Server thread/INFO]: Rcer_mc joined the game
-[15:24:07] [Server thread/INFO]: Rcer_mc[/127.9.77.92:40569] logged in with entity id 298 at ([world]-4529.794505474164, 123.0, 1110.7298504610842)
-[15:24:12] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> buenoos dias mi linda ruth
-[15:24:16] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> XDDDDDDDDDDD
-[15:24:35] [Async Chat Thread - #0/INFO]: [Not Secure] <Rcer_mc> XDDD tiempo q no jugamos y ya ni me acuerdo q queria hacer
-[15:25:20] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> XDDDDDD ay q mejorar la casa p
-[15:25:34] [Async Chat Thread - #0/INFO]: [Not Secure] <Rcer_mc> me va medio lag XD
-[15:25:43] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> vas a reiniciar la pc o q p
-[15:27:12] [Async Chat Thread - #2/INFO]: [Not Secure] <geotrush> XDDDDD
-[15:28:10] [Async Chat Thread - #2/INFO]: [Not Secure] <Rcer_mc> aa no se supone q iriamos a minar tambien? XD
-[15:28:16] [Async Chat Thread - #2/INFO]: [Not Secure] <geotrush> aaaa verdad o
-[15:28:25] [Async Chat Thread - #2/INFO]: [Not Secure] <geotrush> consigamos mas comida y vamos p
-[15:28:56] [Server thread/INFO]: Rcer_mc has made the advancement [A Seedy Place]
-[15:29:00] [Async Chat Thread - #2/INFO]: [Not Secure] <geotrush> XDDDDDDD
-[15:29:08] [Async Chat Thread - #2/INFO]: [Not Secure] <geotrush> ay q sacar p
-[15:29:12] [Async Chat Thread - #2/INFO]: [Not Secure] <geotrush> y replantar
-[15:31:00] [Async Chat Thread - #4/INFO]: [Not Secure] <geotrush> para q quede bonito p
-[15:31:06] [Async Chat Thread - #4/INFO]: [Not Secure] <geotrush> aunque me gustaria poner diferentes cosas XDDDD
-[15:31:10] [Async Chat Thread - #4/INFO]: [Not Secure] <geotrush> pero no hay p
-[15:32:49] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> esta vez voy a ordenar todo por categorias XDDD
-[15:32:58] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> muchas tengo todo desordenado XDDDD
-[15:33:03] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> muchas veces XDDDD
-[15:33:04] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> aaa ta bien p
-[15:33:19] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> ya tienes mucha comida mi niñita?
-[15:33:26] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> nose creo q si
-[15:33:32] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> aaaa vamos a minar p
-[15:33:41] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> ay q usar tu puente p
-[15:33:46] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> y vamos por haya
-[15:33:54] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> pero mimir primero
-[15:34:04] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> sisi
-[15:35:00] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> XDDDDD
-[15:35:18] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> antorchas o
-[15:35:22] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> no miro nada XD
-[15:35:35] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> cierto espera XDDD
-[15:35:52] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> venn
-[15:36:11] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> donde XDDD
-[15:36:25] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> y si vamos ahi p
-[15:36:45] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> a esa cueva o q p
-[15:36:50] [Async Chat Thread - #6/INFO]: [Not Secure] <Rcer_mc> si
-[15:36:56] [Async Chat Thread - #6/INFO]: [Not Secure] <geotrush> vamos mi vida
-[15:38:14] [Async Chat Thread - #8/INFO]: [Not Secure] <geotrush> aalaa
-[15:38:33] [Async Chat Thread - #8/INFO]: [Not Secure] <Rcer_mc> q bonito a pixees incluso o
-[15:38:56] [Async Chat Thread - #8/INFO]: [Not Secure] <geotrush> como q pixees XDD
-[15:39:27] [Async Chat Thread - #8/INFO]: [Not Secure] <Rcer_mc> pixeles XD yo no lo veo a tan buenos graficos p
-[15:39:35] [Async Chat Thread - #8/INFO]: [Not Secure] <geotrush> aaayaa p
-[15:39:41] [Async Chat Thread - #8/INFO]: [Not Secure] <geotrush> pero ya jugaras como se debe cuando vengas a mi casa p
-[15:40:27] [Async Chat Thread - #8/INFO]: [Not Secure] <Rcer_mc> tienes madera? XD
-[15:40:45] [Async Chat Thread - #8/INFO]: [Not Secure] <geotrush> para q p
-[15:40:52] [Async Chat Thread - #8/INFO]: [Not Secure] <geotrush> no tengo XDDDD
-[15:41:13] [Async Chat Thread - #8/INFO]: [Not Secure] <Rcer_mc> reinicio ya? esq me va lag
-[15:41:16] [Async Chat Thread - #8/INFO]: [Not Secure] <geotrush> yaya
-[15:41:25] [Server thread/INFO]: Rcer_mc lost connection: Disconnected
-[15:41:25] [Server thread/INFO]: Rcer_mc left the game
-[15:51:15] [User Authenticator #1/INFO]: UUID of player Rcer_mc is 697956e9-2eb5-37d0-ab08-c40f51de3c18
-[15:51:17] [Server thread/INFO]: Rcer_mc joined the game
-[15:51:17] [Server thread/INFO]: Rcer_mc[/127.9.77.92:37049] logged in with entity id 3763 at ([world]-4587.279186311155, 84.0, 1184.9385835538083)
-[15:51:44] [Async Chat Thread - #10/INFO]: [Not Secure] <geotrush> holaaaa amorcito
-[15:51:52] [Async Chat Thread - #10/INFO]: [Not Secure] <Rcer_mc> XDDD
-[15:51:55] [Async Chat Thread - #10/INFO]: [Not Secure] <Rcer_mc> hi
-[15:52:06] [Async Chat Thread - #10/INFO]: [Not Secure] <Rcer_mc> q hces p
-[15:52:20] [Async Chat Thread - #10/INFO]: [Not Secure] <geotrush> me encerre un rato para q no me maten XDDDD
-[15:53:47] [Async Chat Thread - #12/INFO]: [Not Secure] <Rcer_mc> y si me haces tp?XD
-[15:53:53] [Server thread/INFO]: geotrush issued server command: /tp Rcer_mc geotrush
-[15:53:53] [Server thread/INFO]: [geotrush: Teleported Rcer_mc to geotrush]
-[15:53:56] [Async Chat Thread - #12/INFO]: [Not Secure] <geotrush> ahi esta mi amor
-[15:56:59] [Server thread/INFO]: geotrush lost connection: Timed out
-[15:56:59] [Server thread/INFO]: geotrush left the game
-[15:57:09] [User Authenticator #2/INFO]: UUID of player geotrush is 583146d1-b2cf-3918-9ea5-b7f59e3efdcf
-[15:57:10] [Server thread/INFO]: geotrush joined the game
-[15:57:10] [Server thread/INFO]: geotrush[/127.243.211.55:44391] logged in with entity id 4610 at ([world]-4571.699999988079, 87.0, 1129.6286795443373)
-[15:57:16] [Async Chat Thread - #14/INFO]: [Not Secure] <Rcer_mc> q fue
-[15:57:19] [Async Chat Thread - #14/INFO]: [Not Secure] <geotrush> XDDDDD
-[15:57:22] [Async Chat Thread - #14/INFO]: [Not Secure] <geotrush> me saco o pipipi
-[15:57:29] [Async Chat Thread - #14/INFO]: [Not Secure] <Rcer_mc> pobre niñito o
-[15:57:32] [Async Chat Thread - #14/INFO]: [Not Secure] <Rcer_mc> mimir p
-[15:57:38] [Async Chat Thread - #14/INFO]: [Not Secure] <geotrush> yaya pero juntos p
-[15:57:41] [Async Chat Thread - #14/INFO]: [Not Secure] <Rcer_mc> XDDDD
-[15:58:01] [Async Chat Thread - #14/INFO]: [Not Secure] <geotrush> ta bien p
-[15:58:03] [Async Chat Thread - #14/INFO]: [Not Secure] <Rcer_mc> este niñito o
-[15:59:28] [Async Chat Thread - #16/INFO]: [Not Secure] <geotrush> apenas hay hierro o
-[15:59:29] [Async Chat Thread - #16/INFO]: [Not Secure] <geotrush> XDDDDD
-[15:59:43] [Async Chat Thread - #16/INFO]: [Not Secure] <Rcer_mc> vamos a otro lado XDD
-[15:59:47] [Async Chat Thread - #16/INFO]: [Not Secure] <geotrush> yaya p
-[16:00:27] [Async Chat Thread - #16/INFO]: [Not Secure] <geotrush> q pro mi niñita reutilizando
-[16:00:28] [Async Chat Thread - #17/INFO]: [Not Secure] <geotrush> XDDDD
-[16:00:33] [Async Chat Thread - #16/INFO]: [Not Secure] <Rcer_mc> aprende p
-[16:00:39] [Async Chat Thread - #16/INFO]: [Not Secure] <geotrush> para cuidar el medio ambiente
-[16:00:41] [Async Chat Thread - #16/INFO]: [Not Secure] <geotrush> JAJJAJA
-[16:00:43] [Async Chat Thread - #16/INFO]: [Not Secure] <geotrush> q pro o
-[16:02:02] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> XDDDDD
-[16:02:08] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> abajo esta la cueva
-[16:02:14] [Async Chat Thread - #18/INFO]: [Not Secure] <Rcer_mc> XDDD
-[16:02:46] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> vamos con barquito por el agua? XDDD
-[16:02:51] [Async Chat Thread - #18/INFO]: [Not Secure] <Rcer_mc> sisi
-[16:03:25] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> tu conduce p
-[16:03:36] [Async Chat Thread - #18/INFO]: [Not Secure] <Rcer_mc> a donde p XDD
-[16:03:41] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> para aya p XDD
-[16:03:47] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> para explorar XDDD
-[16:03:58] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> nooo con la lluvia se ve tremendo
-[16:04:04] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> XDDDD con los shaders
-[16:04:04] [Server thread/WARN]: Birch Boat (vehicle of Rcer_mc) moved wrongly! 0.43648716685152067
-[16:04:04] [Server thread/WARN]: Birch Boat (vehicle of Rcer_mc) moved wrongly! 0.7432439391975549
-[16:04:50] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> pipipi
-[16:04:55] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> diamante
-[16:04:56] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> dea
-[16:04:57] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> XDDDDDD
-[16:04:59] [Async Chat Thread - #18/INFO]: [Not Secure] <Rcer_mc> si claro
-[16:05:27] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> PIPIPI
-[16:05:31] [Async Chat Thread - #18/INFO]: [Not Secure] <Rcer_mc> XDDDD
-[16:05:37] [Async Chat Thread - #18/INFO]: [Not Secure] <geotrush> ven mi reina
-[16:05:38] [Async Chat Thread - #19/INFO]: [Not Secure] <geotrush> dea
-[16:05:51] [Async Chat Thread - #19/INFO]: [Not Secure] <Rcer_mc> XDD
-[16:06:23] [Async Chat Thread - #19/INFO]: [Not Secure] <geotrush> vamos caminando ya fue XDDD
-[16:07:02] [Async Chat Thread - #19/INFO]: [Not Secure] <geotrush> JAJAJJAJA
-[16:07:05] [Async Chat Thread - #19/INFO]: [Not Secure] <geotrush> pobre enderman o
-[16:07:11] [Async Chat Thread - #19/INFO]: [Not Secure] <Rcer_mc> XDDDDDD
-[16:07:12] [Async Chat Thread - #19/INFO]: [Not Secure] <geotrush> es q como esta en la lluvia XDDD
-[16:07:14] [Async Chat Thread - #19/INFO]: [Not Secure] <Rcer_mc> q nooob
-[16:07:58] [Async Chat Thread - #19/INFO]: [Not Secure] <geotrush> el primo de manolo
-[16:08:07] [Async Chat Thread - #19/INFO]: [Not Secure] <Rcer_mc> primo lejano p
-[16:08:13] [Async Chat Thread - #19/INFO]: [Not Secure] <geotrush> claro p XDDD
-[16:08:37] [Async Chat Thread - #19/INFO]: [Not Secure] <geotrush> todas las cuevas estan con agua o XDDDD
-[16:09:18] [Async Chat Thread - #19/INFO]: [Not Secure] <geotrush> a mimir p
-[16:09:22] [Server thread/INFO]: geotrush issued server command: /tp Rcer_mc
-[16:09:22] [Server thread/INFO]: [geotrush: Teleported geotrush to Rcer_mc]
-[16:10:01] [Async Chat Thread - #19/INFO]: [Not Secure] <geotrush> aaa ahi esta la jungla XDD
-[16:10:27] [Async Chat Thread - #19/INFO]: [Not Secure] <geotrush> q prooo
-[16:11:00] [Async Chat Thread - #19/INFO]: [Not Secure] <geotrush> tremendas las cuevas de estas versiones XDDD
-[16:11:16] [Async Chat Thread - #19/INFO]: [Not Secure] <Rcer_mc> literal p
-[16:13:12] [Async Chat Thread - #20/INFO]: [Not Secure] <geotrush> me da lag esta parte nose porque
-[16:13:14] [Async Chat Thread - #20/INFO]: [Not Secure] <geotrush> XDDDD
-[16:13:17] [Async Chat Thread - #20/INFO]: [Not Secure] <Rcer_mc> XD
-[16:13:28] [Async Chat Thread - #20/INFO]: [Not Secure] <Rcer_mc> y si seguimos por agua p
-[16:13:34] [Async Chat Thread - #20/INFO]: [Not Secure] <geotrush> yaya p
-[16:13:44] [Async Chat Thread - #20/INFO]: [Not Secure] <geotrush> checa este water dr op
-[16:13:57] [Async Chat Thread - #20/INFO]: [Not Secure] <Rcer_mc> aaa
-[16:14:00] [Async Chat Thread - #20/INFO]: [Not Secure] <Rcer_mc> q pro o
-[16:14:01] [Async Chat Thread - #20/INFO]: [Not Secure] <geotrush> ta bien p
-[16:14:45] [Async Chat Thread - #20/INFO]: [Not Secure] <geotrush> panda
-[16:15:02] [Async Chat Thread - #20/INFO]: [Not Secure] <geotrush> 2 pandas XDDD
-[16:20:55] [Async Chat Thread - #22/INFO]: [Not Secure] <geotrush> XDDDD
-[16:21:09] [Async Chat Thread - #22/INFO]: [Not Secure] <geotrush> mi amorcito te amo mucho
-[16:21:20] [Async Chat Thread - #22/INFO]: [Not Secure] <geotrush> queeeee
-[16:21:23] [Async Chat Thread - #22/INFO]: [Not Secure] <geotrush> y ese loro
-[16:21:45] [Async Chat Thread - #22/INFO]: [Not Secure] <geotrush> XDDDD ese diferente o q
-[16:21:48] [Async Chat Thread - #22/INFO]: [Not Secure] <geotrush> es q me quite los shaders p
-[16:21:52] [Async Chat Thread - #22/INFO]: [Not Secure] <Rcer_mc> XDDDD
-[16:21:54] [Async Chat Thread - #22/INFO]: [Not Secure] <Rcer_mc> es rojo
-[16:21:57] [Async Chat Thread - #22/INFO]: [Not Secure] <geotrush> pipipipi
-[16:21:58] [Async Chat Thread - #22/INFO]: [Not Secure] <geotrush> XDDDDD
-[16:22:07] [Async Chat Thread - #22/INFO]: [Not Secure] <geotrush> tienes el barco? XDDD
-[16:22:09] [Async Chat Thread - #22/INFO]: [Not Secure] <geotrush> para craftear otro p
-[16:22:14] [Async Chat Thread - #22/INFO]: [Not Secure] <Rcer_mc> no
-[16:23:22] [Async Chat Thread - #24/INFO]: [Not Secure] <geotrush> dia 238103218 buscando una cueva
-[16:23:30] [Async Chat Thread - #24/INFO]: [Not Secure] <Rcer_mc> XDDDD ya o
-[16:23:33] [Async Chat Thread - #24/INFO]: [Not Secure] <Rcer_mc> paciencia p
-[16:23:47] [Async Chat Thread - #24/INFO]: [Not Secure] <Rcer_mc> yo vi una detras pero nose si ser grande p
-[16:23:57] [Async Chat Thread - #24/INFO]: [Not Secure] <Rcer_mc> sera
-[16:24:09] [Async Chat Thread - #24/INFO]: [Not Secure] <geotrush> vamos p
-[16:25:16] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> q fue con los loros miraa
-[16:25:19] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> ese loro
-[16:25:21] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> XDDDDDDDDDDDDDD
-[16:26:18] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> busquemos otra cueva entonces pipipi
-[16:27:13] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> tp p
-[16:27:28] [Server thread/INFO]: geotrush issued server command: /tp Rcer_mc geotrush
-[16:27:28] [Server thread/INFO]: [geotrush: Teleported Rcer_mc to geotrush]
-[16:27:30] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> XDDDD
-[16:27:51] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> aaaaaaaaaaaaaaaa
-[16:27:53] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> XDDDDDDDDDDDD
-[16:28:09] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> almenos habia
-[16:28:10] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> 1 de hierro
-[16:28:11] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> XDDDD
-[16:28:13] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> AAJAJJa
-[16:28:20] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> yo encontre un poquito te doy p
-[16:28:26] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> yo ya tengo p
-[16:28:37] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> solo quiero una espada
-[16:28:47] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> pero tambien hazte unos pantalones p XDDD
-[16:28:56] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> q me pone calenturiento q andes asi dea XDDDDDDD
-[16:29:02] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> aa cierto pero asi tambien se veia bien p
-[16:29:08] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> este o
-[16:29:16] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> XDDDDDD ta bien p q pro
-[16:29:21] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> alaaaa
-[16:29:33] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> water drop aver
-[16:29:42] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> tu primero
-[16:29:48] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> luego me muero sin querer
-[16:29:55] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> XDDDD
-[16:29:57] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> salio p
-[16:30:00] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> si p
-[16:30:03] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> fue mi lag
-[16:30:12] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> nono
-[16:30:13] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> no salio
-[16:30:15] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> te hiciste daño
-[16:30:17] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> dea
-[16:30:18] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> XDDDDDDD
-[16:30:29] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> na bromita q pro eres mi niñita
-[16:30:39] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> amo jugar contigo mi reina
-[16:30:52] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> de verdad?
-[16:31:00] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> si mi niñita
-[16:31:04] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> me encanta
-[16:31:08] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> se siente tan diferente
-[16:31:11] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> y me gusta mucho
-[16:32:02] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> dia 238103219 buscando una cueva
-[16:32:04] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> mimir p
-[16:32:10] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> mira niñita
-[16:32:12] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> cama drop
-[16:32:20] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> XDDDDDDDDDDDDDDDD
-[16:32:20] [Async Chat Thread - #26/INFO]: [Not Secure] <Rcer_mc> AJAJJAJA
-[16:32:22] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> JAJAJAJJAJA
-[16:32:26] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> AAAAAAAAAAAAAAAA
-[16:32:32] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> ayudaaaa
-[16:32:45] [Async Chat Thread - #26/INFO]: [Not Secure] <geotrush> noooo mis pantalones gucci
-[16:33:59] [Async Chat Thread - #28/INFO]: [Not Secure] <Rcer_mc> barco p
-[16:34:09] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> tu conduce p
-[16:34:19] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> para yo estar atras tuyo dea
-[16:34:36] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> q cosa XDDD
-[16:34:41] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> ese zombie XDDD
-[16:35:23] [Server thread/INFO]: Rcer_mc was shot by geotrush
-[16:35:33] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> NOOOOOOOO
-[16:35:40] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> LE QUERIA DAR AL ZOMBIE
-[16:35:59] [Server thread/INFO]: geotrush issued server command: /tp Rcer_mc geotrush
-[16:35:59] [Server thread/INFO]: [geotrush: Teleported Rcer_mc to geotrush]
-[16:36:05] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> miraaa
-[16:36:15] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> tus cosas niñita
-[16:36:25] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> perdoname enserio
-[16:36:30] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> le queria dar al zombie tel o juro
-[16:37:10] [Async Chat Thread - #28/INFO]: [Not Secure] <geotrush> me perdonas? pipipipi
-[16:37:16] [Async Chat Thread - #28/INFO]: [Not Secure] <Rcer_mc> si
-[16:38:59] [Async Chat Thread - #30/INFO]: [Not Secure] <Rcer_mc> no tengo flechas
-[16:39:07] [Async Chat Thread - #30/INFO]: [Not Secure] <Rcer_mc> ni iron
-[16:39:23] [Async Chat Thread - #30/INFO]: [Not Secure] <geotrush> toma p
-[16:39:43] [Async Chat Thread - #30/INFO]: [Not Secure] <geotrush> toma p pipipi
-[16:42:48] [Async Chat Thread - #32/INFO]: [Not Secure] <geotrush> aaa yo no recuerdo q tenia botas
-[16:42:59] [Async Chat Thread - #32/INFO]: [Not Secure] <geotrush> XDDDDDDD
-[16:44:27] [Async Chat Thread - #34/INFO]: [Not Secure] <geotrush> quiero q lo tengas tu p
-[16:44:31] [Async Chat Thread - #34/INFO]: [Not Secure] <Rcer_mc> para q
-[16:44:38] [Async Chat Thread - #34/INFO]: [Not Secure] <geotrush> porque si p
-[16:45:00] [Async Chat Thread - #34/INFO]: [Not Secure] <geotrush> XDDD
-[16:45:48] [Async Chat Thread - #34/INFO]: [Not Secure] <geotrush> XDDDD
-[16:46:17] [Async Chat Thread - #34/INFO]: [Not Secure] <geotrush> agarre tus antorchas creo
-[16:46:21] [Server thread/WARN]: Rcer_mc was kicked for floating too long!
-[16:46:21] [Server thread/INFO]: Rcer_mc lost connection: Flying is not enabled on this server
-[16:46:21] [Server thread/INFO]: Rcer_mc left the game
-[16:46:28] [User Authenticator #3/INFO]: UUID of player Rcer_mc is 697956e9-2eb5-37d0-ab08-c40f51de3c18
-[16:46:30] [Server thread/INFO]: Rcer_mc joined the game
-[16:46:30] [Server thread/INFO]: Rcer_mc[/127.9.77.92:56711] logged in with entity id 14950 at ([world]-3724.2472957860946, 67.0, 316.60567653994076)
-[16:46:35] [Async Chat Thread - #34/INFO]: [Not Secure] <geotrush> nooo
-[16:46:43] [Async Chat Thread - #34/INFO]: [Not Secure] <geotrush> como decia agarre tus antorchas creo
-[16:46:44] [Async Chat Thread - #34/INFO]: [Not Secure] <Rcer_mc> voy a reiniciar sigo con lag y se fue mi sonido
-[16:46:46] [Server thread/INFO]: Rcer_mc lost connection: Disconnected
-[16:46:46] [Server thread/INFO]: Rcer_mc left the game
-[16:52:54] [User Authenticator #4/INFO]: UUID of player Rcer_mc is 697956e9-2eb5-37d0-ab08-c40f51de3c18
-[16:52:57] [Server thread/INFO]: Rcer_mc joined the game
-[16:52:57] [Server thread/INFO]: Rcer_mc[/127.9.77.92:44993] logged in with entity id 15510 at ([world]-3724.8401890598166, 67.0, 316.84962138564396)
-[16:53:03] [Async Chat Thread - #36/INFO]: [Not Secure] <geotrush> holaaaa
-[16:53:10] [Async Chat Thread - #36/INFO]: [Not Secure] <Rcer_mc> buenas
-[16:53:15] [Async Chat Thread - #36/INFO]: [Not Secure] <geotrush> niñita
-[16:53:20] [Async Chat Thread - #36/INFO]: [Not Secure] <geotrush> creo q tengo tus antorchas
-[16:53:33] [Async Chat Thread - #36/INFO]: [Not Secure] <geotrush> es q nose q paso q se mezclaron nuestras cosas perdon
+[22:03:36] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:03:39] [ServerMain/INFO]: Loaded 1337 recipes
+[22:03:39] [ServerMain/INFO]: Loaded 1448 advancements
+[22:03:39] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[22:03:39] [Server thread/INFO]: Loading properties
+[22:03:40] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[22:03:40] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[22:03:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:03:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:03:42] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[22:03:42] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[22:03:42] [Server thread/INFO]: Default game type: SURVIVAL
+[22:03:42] [Server thread/INFO]: Generating keypair
+[22:03:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:03:42] [Server thread/INFO]: Using epoll channel type
+[22:03:43] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:03:43] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[22:03:43] [Server thread/INFO]: [sleep-most] Loading server plugin sleep-most v5.5.1
+[22:03:43] [Server thread/INFO]: [GravesX] Loading server plugin GravesX v4.9.6.4
+[22:03:43] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.0
+[22:03:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:03:43] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.0
+[22:03:44] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[22:03:44] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
+[22:03:45] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[22:03:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:03:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:03:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:03:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:03:45] [Server thread/INFO]: Preparing level "world"
+[22:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[22:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[22:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[22:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[22:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[22:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.0
+[22:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ad418e4
+[22:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     A new version (15.5.1) is available! Downloading update...
+[22:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[22:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[22:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloading update...
+[22:03:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Downloaded update in 518ms
+[22:03:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] Update saved as SkinsRestorer (6).jar
+[22:03:46] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] [GitHubUpdate] The update will be loaded on the next server restart
+[22:03:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:03:46] [Server thread/INFO]: Preparing spawn area: 0%
+[22:03:47] [Server thread/INFO]: Preparing spawn area: 2%
+[22:03:47] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[22:03:47] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 506.4ms
+[22:03:47] [Server thread/INFO]: Preparing spawn area: 2%
+[22:03:48] [Server thread/INFO]: Preparing spawn area: 18%
+[22:03:48] [Server thread/INFO]: Preparing spawn area: 18%
+[22:03:48] [Server thread/INFO]: Time elapsed: 2018 ms
+[22:03:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:03:48] [Server thread/INFO]: Preparing spawn area: 0%
+[22:03:48] [Server thread/INFO]: Preparing spawn area: 22%
+[22:03:49] [Server thread/INFO]: Time elapsed: 812 ms
+[22:03:49] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:03:49] [Server thread/INFO]: Preparing spawn area: 0%
+[22:03:49] [Server thread/INFO]: Time elapsed: 410 ms
+[22:03:49] [Server thread/INFO]: [sleep-most] Enabling sleep-most v5.5.1
+[22:03:49] [Server thread/INFO]: [GravesX] Enabling GravesX v4.9.6.4
+[22:03:49] [Server thread/INFO]: [GravesX] Loading Libraries for GravesX
+[22:03:49] [Server thread/INFO]: [GravesX] Loading library com.zaxxer.HikariCP version 6.0.0.
+[22:03:49] [Server thread/INFO]: [GravesX] Loading library com.zaxxer:HikariCP:6.0.0
+[22:03:50] [Server thread/INFO]: [GravesX] Loading library org.slf4j:slf4j-api:1.7.36
+[22:03:50] [Server thread/INFO]: [GravesX] Loading library org.javassist:javassist:3.29.2-GA
+[22:03:50] [Server thread/INFO]: [GravesX] Loading library io.micrometer:micrometer-core:1.5.10
+[22:03:50] [Server thread/INFO]: [GravesX] Loading library org.hdrhistogram:HdrHistogram:2.1.12
+[22:03:50] [Server thread/INFO]: [GravesX] Loading library org.latencyutils:LatencyUtils:2.0.3
+[22:03:50] [Server thread/INFO]: [GravesX] Loaded library com.zaxxer.HikariCP version 6.0.0 and shaded successfully.
+[22:03:50] [Server thread/INFO]: [GravesX] Loading library org.xerial.sqlite-jdbc version 3.47.0.0.
+[22:03:50] [Server thread/INFO]: [GravesX] Loading library org.xerial:sqlite-jdbc:3.47.0.0
+[22:03:50] [Server thread/INFO]: [GravesX] Loading library org.slf4j:slf4j-api:1.7.36
+[22:03:50] [Server thread/INFO]: [GravesX] Loaded library org.xerial.sqlite-jdbc version 3.47.0.0 successfully.
+[22:03:50] [Server thread/INFO]: [GravesX] Loading library org.json.json version 20240303.
+[22:03:50] [Server thread/INFO]: [GravesX] Loading library org.json:json:20240303
+[22:03:50] [Server thread/INFO]: [GravesX] Loaded library org.json.json version 20240303 successfully.
+[22:03:50] [Server thread/INFO]: [GravesX] Loading library com.h2database.h2 version 2.3.232.
+[22:03:50] [Server thread/INFO]: [GravesX] Loading library com.h2database:h2:2.3.232
+[22:03:51] [Server thread/INFO]: [GravesX] Loaded library com.h2database.h2 version 2.3.232 and shaded successfully.
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori.adventure-api version 4.17.0.
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-api:4.17.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-key:4.17.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-api:1.3.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-string:1.3.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library org.jetbrains:annotations:24.1.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loaded library net.kyori.adventure-api version 4.17.0 and shaded successfully.
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori.adventure-text-minimessage version 4.17.0.
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-minimessage:4.17.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-api:4.17.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-key:4.17.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-api:1.3.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-string:1.3.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library org.jetbrains:annotations:24.1.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loaded library net.kyori.adventure-text-minimessage version 4.17.0 and shaded successfully.
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori.adventure-text-serializer-gson version 4.17.0.
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-serializer-gson:4.17.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-serializer-json:4.17.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-api:4.17.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-key:4.17.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-api:1.3.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-string:1.3.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library org.jetbrains:annotations:24.1.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:option:1.0.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library com.google.code.gson:gson:2.8.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library com.google.auto.service:auto-service-annotations:1.1.1
+[22:03:51] [Server thread/INFO]: [GravesX] Loaded library net.kyori.adventure-text-serializer-gson version 4.17.0 and shaded successfully.
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori.adventure-platform-bukkit version 4.3.3.
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-platform-bukkit:4.3.3
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-platform-api:4.3.3
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-api:4.13.1
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-key:4.13.1
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-serializer-bungeecord:4.3.3
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-serializer-legacy:4.13.1
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-nbt:4.13.1
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-api:1.3.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-string:1.3.0
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library org.jetbrains:annotations:24.0.1
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-serializer-gson:4.13.1
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-serializer-gson-legacy-impl:4.13.1
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-platform-facet:4.3.3
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-platform-viaversion:4.3.3
+[22:03:51] [Server thread/INFO]: [GravesX] Loaded library net.kyori.adventure-platform-bukkit version 4.3.3 and shaded successfully.
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library de.themoep.minedown-adventure version 1.7.3-graves.
+[22:03:51] [Server thread/INFO]: [GravesX] Loading library de.themoep:minedown-adventure:1.7.3-graves
+[22:03:52] [Server thread/INFO]: [GravesX] Loaded library de.themoep.minedown-adventure version 1.7.3-graves and shaded successfully.
+[22:03:52] [Server thread/INFO]: [GravesX] Loading library me.imdanix.MiniTranslator version 2.1-graves.
+[22:03:52] [Server thread/INFO]: [GravesX] Loading library me.imdanix:MiniTranslator:2.1-graves
+[22:03:52] [Server thread/INFO]: [GravesX] Loaded library me.imdanix.MiniTranslator version 2.1-graves and shaded successfully.
+[22:03:52] [Server thread/INFO]: [GravesX] Loading library com.github.puregero.multilib version 1.2.4.
+[22:03:52] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:multilib:1.2.4
+[22:03:52] [Server thread/INFO]: [GravesX] Loading library org.jetbrains:annotations:22.0.0
+[22:03:52] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:multilib-common:1.2.4
+[22:03:52] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:multilib-bukkit:1.2.4
+[22:03:52] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:multilib-multipaper:1.2.4
+[22:03:52] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:regionized-common:1.2.4
+[22:03:52] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:regionized-bukkit:1.2.4
+[22:03:52] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:regionized-paper:1.2.4
+[22:03:52] [Server thread/INFO]: [GravesX] Loaded library com.github.puregero.multilib version 1.2.4 and shaded successfully.
+[22:03:52] [Server thread/INFO]: [GravesX] Loading library org.apache.commons.commons-text version 1.12.0.
+[22:03:52] [Server thread/INFO]: [GravesX] Loading library org.apache.commons:commons-text:1.12.0
+[22:03:52] [Server thread/INFO]: [GravesX] Loading library org.apache.commons:commons-lang3:3.14.0
+[22:03:52] [Server thread/INFO]: [GravesX] Loaded library org.apache.commons.commons-text version 1.12.0 and shaded successfully.
+[22:03:52] [Server thread/INFO]: [GravesX] Finished Loading Libraries for GravesX.
+[22:03:52] [Server thread/INFO]: [GravesX] Integration: Hooked into MiniMessage.
+[22:03:52] [Server thread/INFO]: [GravesX] Integration: Hooked into Minedown Adventure.
+[22:03:52] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.HikariDataSource] Graves H2 - Starting...
+[22:03:53] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.pool.HikariPool] Graves H2 - Added connection conn1: url=jdbc:h2:file:./plugins/GravesX/data/graves.data user=SA
+[22:03:53] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.HikariDataSource] Graves H2 - Start completed.
+[22:03:53] [Server thread/WARN]: [GravesX] SQLite database file or folder does not exist in "plugins/GravesX/data". Skipping database migration.
+[22:03:53] [Server thread/INFO]: [GravesX] Metrics has been enabled. All metrics will be sent to https://bstats.org/plugin/bukkit/Graves/12849 and https://bstats.org/plugin/bukkit/GravesX/23069.
+[22:03:53] [Server thread/INFO]: [spark] Starting background profiler...
+[22:03:54] [Server thread/INFO]: Done preparing level "world" (8.759s)
+[22:03:54] [Server thread/INFO]: Running delayed init tasks
+[22:03:54] [Server thread/INFO]: [GravesX] Registering Crash Handler...
+[22:03:54] [Server thread/INFO]: [GravesX] Registered Crash Handler. Server will handle crashes in a separate thread.
+[22:03:54] [Server thread/INFO]: Done (25.678s)! For help, type "help"
+[22:03:54] [Craft Scheduler Thread - 2 - GravesX/INFO]: [GravesX] Loading grave maps...
+[22:03:54] [Craft Scheduler Thread - 2 - GravesX/INFO]: [GravesX] Found 0 grave maps to load into cache.
+[22:03:54] [Craft Scheduler Thread - 6 - GravesX/INFO]: [GravesX] Loading Holograms into Hologram Map Cache...
+[22:03:54] [Craft Scheduler Thread - 0 - GravesX/INFO]: [GravesX] Loading Entity Map Cache for itemframe...
+[22:03:54] [Craft Scheduler Thread - 6 - GravesX/INFO]: [GravesX] Loaded 0 Holograms into Hologram Map Cache.
+[22:03:54] [Craft Scheduler Thread - 0 - GravesX/INFO]: [GravesX] Loaded 0 entities into Entity Map Cache for itemframe.
+[22:03:54] [Craft Scheduler Thread - 5 - GravesX/INFO]: [GravesX] Loading Block Map cache...
+[22:03:54] [Craft Scheduler Thread - 5 - GravesX/INFO]: [GravesX] Loaded 0 Blocks into Block Map Cache.
+[22:03:54] [Craft Scheduler Thread - 9 - GravesX/INFO]: [GravesX] Loading Entity Map Cache for armorstand...
+[22:03:54] [Craft Scheduler Thread - 9 - GravesX/INFO]: [GravesX] Loaded 0 entities into Entity Map Cache for armorstand.
+[22:03:54] [Craft Scheduler Thread - 1 - GravesX/WARN]: [GravesX] You are using an outdated version of GravesX.
+[22:03:54] [Craft Scheduler Thread - 1 - GravesX/WARN]: [GravesX] Installed Version: 4.9.6.4
+[22:03:54] [Craft Scheduler Thread - 1 - GravesX/WARN]: [GravesX] Latest Version:  4.9.7.2
+[22:03:54] [Craft Scheduler Thread - 1 - GravesX/WARN]: [GravesX] Grab the latest release from https://www.spigotmc.org/resources/118271/
+[22:04:18] [User Authenticator #0/INFO]: UUID of player Rcer_mc is 697956e9-2eb5-37d0-ab08-c40f51de3c18
+[22:04:20] [Server thread/INFO]: Rcer_mc joined the game
+[22:04:21] [Server thread/INFO]: Rcer_mc[/127.9.77.92:57755] logged in with entity id 20 at ([world]-3748.7636825946665, 88.0, 335.6196999363095)
+[22:06:15] [User Authenticator #1/INFO]: UUID of player geotrush is 583146d1-b2cf-3918-9ea5-b7f59e3efdcf
+[22:06:16] [Server thread/INFO]: geotrush joined the game
+[22:06:16] [Server thread/INFO]: geotrush[/127.243.211.55:49451] logged in with entity id 625 at ([world]-3741.814256245192, 63.0, 482.7833254159461)
+[22:06:19] [Async Chat Thread - #0/INFO]: [Not Secure] <Rcer_mc> hi
+[22:06:46] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> hola mi reina hermosaaaa
+[22:06:47] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> guapaaa
+[22:07:05] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> manolo
+[22:07:16] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> q humilde
+[22:07:53] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> ay q minar un rato
+[22:08:02] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> y volvemos a la casa a decorar p
+[22:08:04] [Async Chat Thread - #0/INFO]: [Not Secure] <Rcer_mc> sisi
+[22:08:32] [Async Chat Thread - #0/INFO]: [Not Secure] <geotrush> aunque no veo buenas cuevas XDDD
+[22:11:25] [Async Chat Thread - #2/INFO]: [Not Secure] <geotrush> PORFIN XDDD
+[22:12:11] [Async Chat Thread - #2/INFO]: [Not Secure] <Rcer_mc> XDDD
+[22:12:14] [Async Chat Thread - #2/INFO]: [Not Secure] <Rcer_mc> porfin q
+[22:12:21] [Async Chat Thread - #2/INFO]: [Not Secure] <geotrush> una cueva chida p XDDDD
+[22:12:27] [Async Chat Thread - #2/INFO]: [Not Secure] <Rcer_mc> no hay nada XDDD
+[22:12:32] [Async Chat Thread - #2/INFO]: [Not Secure] <geotrush> JAJAJJAJAJ
+[22:12:34] [Async Chat Thread - #2/INFO]: [Not Secure] <geotrush> AAAAAAA
+[22:12:45] [Async Chat Thread - #2/INFO]: [Not Secure] <Rcer_mc> XDDDDD
+[22:12:50] [Async Chat Thread - #2/INFO]: [Not Secure] <Rcer_mc> q suerte tenemos o
+[22:12:55] [Async Chat Thread - #2/INFO]: [Not Secure] <geotrush> si o pipipipi
+[22:12:59] [Async Chat Thread - #2/INFO]: [Not Secure] <geotrush> a mimir p
+[22:13:19] [Async Chat Thread - #2/INFO]: [Not Secure] <geotrush> hermosa
+[22:13:24] [Async Chat Thread - #2/INFO]: [Not Secure] <Rcer_mc> xde
