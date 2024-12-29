@@ -479,3 +479,15 @@
 [23:46:00] [Server thread/INFO]: [geotrush: Teleported geotrush to -4501.500000, 127.000000, 1106.500000]
 [23:46:59] [Server thread/INFO]: geotrush issued server command: /setworldspawn
 [23:46:59] [Server thread/INFO]: [geotrush: Set the world spawn point to -4585, 128, 1139 [0.0]]
+[23:54:36] [Async Chat Thread - #22/INFO]: [Not Secure] <Rcer_mc> me haces tp?
+[23:54:40] [Async Chat Thread - #22/INFO]: [Not Secure] <geotrush> yaya mi reina
+[23:54:53] [Server thread/INFO]: geotrush issued server command: /tp Rcer_mc
+[23:54:53] [Server thread/INFO]: [geotrush: Teleported geotrush to Rcer_mc]
+[23:54:57] [Async Chat Thread - #22/INFO]: [Not Secure] <geotrush> ay XDDD
+[23:55:00] [Server thread/INFO]: geotrush issued server command: /tp -4502 127 1106
+[23:55:00] [Server thread/INFO]: [geotrush: Teleported geotrush to -4501.500000, 127.000000, 1106.500000]
+[23:55:25] [Server thread/INFO]: geotrush issued server command: /tp Rcer_mc geotrush
+[23:55:25] [Server thread/INFO]: [geotrush: Teleported Rcer_mc to geotrush]
+[23:57:08] [Async Chat Thread - #24/INFO]: [Not Secure] <geotrush> pasa algo?
+[23:57:13] [Async Chat Thread - #24/INFO]: [Not Secure] <Rcer_mc> SI
+[23:57:19] [Async Chat Thread - #24/INFO]: [Not Secure] <geotrush> q pasa
